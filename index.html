@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8" />
+<title>InovaDocs - Gerador de Markdown Técnico</title>
+<style>
+body {
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  background: #f4f7f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.container {
+  background: #fff;
+  margin: 40px auto;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+  max-width: 800px;
+  width: 90%;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #555;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  font-size: 14px;
+}
+
+button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eef2f5;
+  border-radius: 8px;
+  word-break: break-word;
+}
+
+.download-link {
+  display: inline-block;
+  margin-top: 10px;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.download-link:hover {
+  background-color: #1e7e34;
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <h1>InovaDocs - Gerador de Markdown Técnico</h1>
+
+    <p>Cole seu texto técnico abaixo:</p>
+    <textarea id="inputText" placeholder="Cole aqui seu texto técnico..."></textarea>
+    <button onclick="gerarMarkdown()">Gerar Arquivos Markdown</button>
+
+    <div id="result"></div>
+  </div>
+
+<script>
+function gerarMarkdown() {
+  const texto = document.getElementById('inputText').value;
+  if (!texto.trim()) {
+    alert('Por favor, insira o texto técnico.');
+    return;
+  }
+
+  // Para o protótipo, criaremos um único arquivo markdown simples
+  const mdContent = `# Documento Técnico\n\n${texto}`;
+  const blob = new Blob([mdContent], { type: 'text/markdown' });
+  const url = URL.createObjectURL(blob);
+
+  const resultDiv = document.getElementById('result');
+  resultDiv.innerHTML = '';
+
+  const link = document.createElement('a');
+  link.href = url;
+  link.download = 'documento_tecnico.md';
+  link.innerText = 'Baixar Markdown Gerado';
+  link.className = 'download-link';
+
+  resultDiv.appendChild(link);
+}
+</script>
+
+</body>
+</html>
