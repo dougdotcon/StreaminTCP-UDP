@@ -104,7 +104,11 @@ StreaminTCP-UDP/
 ## 🚀 **Status do Projeto**
 
 <div align="center">
-  <img src="https://progress-bar.dev/27" alt="Progresso: 27%">
+  <strong>Progresso: 27% Concluído</strong>
+  <br>
+  <div style="background: #e0e0e0; border-radius: 10px; height: 20px; width: 300px; margin: 10px 0;">
+    <div style="background: #4CAF50; border-radius: 10px; height: 100%; width: 27%;"></div>
+  </div>
 </div>
 
 <table>
