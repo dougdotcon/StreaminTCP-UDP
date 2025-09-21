@@ -90,7 +90,6 @@ StreaminTCP-UDP/
 ├── 📁 tests/                   # Testes automatizados (pendente)
 ├── 📁 demos/                   # Aplicações demonstrativas (pendente)
 ├── 📁 tools/                   # Ferramentas auxiliares
-│   └── 📄 index.html           # InovaDocs - Gerador de Markdown
 ├── 📁 config/                  # Configurações do projeto
 │   ├── 📄 project.json         # Configuração principal
 │   └── 📄 .env.example         # Exemplo de variáveis de ambiente
@@ -122,7 +121,6 @@ StreaminTCP-UDP/
       <ul>
         <li><b>Documentação completa</b></li>
         <li><b>Planejamento técnico</b></li>
-        <li><b>Protótipo web</b> - InovaDocs</li>
         <li><b>Estrutura organizada</b></li>
       </ul>
     </td>
@@ -223,10 +221,6 @@ StreaminTCP-UDP/
     </tr>
   </table>
 </div>
-
-<hr>
-
-
 
 <hr>
 

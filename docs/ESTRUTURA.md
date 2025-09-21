@@ -50,7 +50,6 @@ StreaminTCP-UDP/
 │   └── 📁 web/               # Aplicações web
 │
 ├── 📁 tools/                   # Ferramentas auxiliares
-│   ├── 📄 index.html         # InovaDocs - Gerador de Markdown
 │   ├── 📁 generators/        # Geradores de código
 │   └── 📁 analyzers/         # Analisadores de dados
 │
@@ -113,7 +112,6 @@ A partir de **N bytes** de informação, o sistema gera **k × N bytes** de dado
 - ✅ Documentação técnica completa
 - ✅ Planejamento de mercado e monetização
 - ✅ Estrutura organizada do projeto
-- ✅ Protótipo web (InovaDocs)
 
 ### **Fase 2: Implementação do Protocolo (Em Desenvolvimento)**
 - 🔄 Implementação do protocolo UDP básico
