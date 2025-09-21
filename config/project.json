@@ -1,0 +1,70 @@
+{
+  "name": "StreaminTCP-UDP",
+  "version": "0.1.0",
+  "description": "Protocolo de transmissão avançado com diluição de dados sobre UDP",
+  "author": "Equipe StreaminTCP-UDP",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/StreaminTCP-UDP.git"
+  },
+  "keywords": [
+    "udp",
+    "protocol",
+    "redundancy",
+    "fec",
+    "forward-error-correction",
+    "networking",
+    "low-latency",
+    "resilient-communication"
+  ],
+  "categories": {
+    "tecnico": [
+      "ia.md",
+      "blockchain.md", 
+      "satellites.md",
+      "sdn_nfv.md",
+      "outras_tecnologias.md",
+      "protocolo_udp_redundante.md",
+      "documento_tecnico.md",
+      "ideias_inovadoras.md"
+    ],
+    "mercado": [
+      "mercado_monetizacao.md"
+    ],
+    "planejamento": [
+      "plano.md",
+      "checklist.md"
+    ]
+  },
+  "structure": {
+    "docs/": "Documentação organizada por categorias",
+    "docs/tecnico/": "Documentação técnica e conceitual",
+    "docs/mercado/": "Análise de mercado e monetização", 
+    "docs/planejamento/": "Planejamento e checklist do projeto",
+    "src/": "Código fonte do protocolo",
+    "tests/": "Testes unitários e de integração",
+    "demos/": "Demonstrações e aplicações práticas",
+    "tools/": "Ferramentas auxiliares e utilitários",
+    "config/": "Arquivos de configuração",
+    "assets/": "Recursos estáticos (imagens, logos, etc.)"
+  },
+  "technologies": {
+    "core": ["Python", "C++", "UDP", "FEC"],
+    "ml": ["TensorFlow", "PyTorch"],
+    "integrations": ["5G", "IoT", "MQTT", "CoAP"],
+    "devops": ["Docker", "Kubernetes", "pytest"]
+  },
+  "roadmap": {
+    "2024-Q4": "Implementação do protocolo básico + testes",
+    "2025-Q1": "Integração com IA/ML + otimizações", 
+    "2025-Q2": "Aplicações demo + documentação",
+    "2025-Q3": "Testes avançados + deployment"
+  },
+  "status": {
+    "progress": 26.8,
+    "completed": ["Documentação", "Planejamento", "Interface Web"],
+    "in_progress": [],
+    "pending": ["Implementação Core", "Testes", "Integrações", "Segurança", "DevOps", "Demos"]
+  }
+}

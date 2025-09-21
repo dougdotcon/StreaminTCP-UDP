@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="logo.png" alt="StreaminTCP-UDP Logo" width="300">
+  <img src="assets/logo.png" alt="StreaminTCP-UDP Logo" width="300">
   <h1>StreaminTCP-UDP</h1>
   <p><strong>Protocolo de transmissão avançado com diluição de dados sobre UDP</strong></p>
   
@@ -65,24 +65,38 @@ A partir de <b>N bytes</b> de informação, o sistema gera <b>k × N bytes</b> d
 
 <hr>
 
-## 🏗️ **Arquitetura do Projeto**
+## 🏗️ **Estrutura do Projeto**
 
 ```
 StreaminTCP-UDP/
-├── 📁 docs/                    # Documentação técnica
-│   ├── documento_tecnico.md    # Documento principal
-│   ├── protocolo_udp_redundante.md
-│   ├── ia.md                   # Integração com IA
-│   ├── blockchain.md           # Aplicações blockchain
-│   ├── satellites.md           # Comunicação satelital
-│   └── ...
+├── 📁 docs/                    # Documentação organizada
+│   ├── 📄 introducao.md        # Introdução ao projeto
+│   ├── 📁 tecnico/             # Documentação técnica
+│   │   ├── 📄 documento_tecnico.md
+│   │   ├── 📄 protocolo_udp_redundante.md
+│   │   ├── 📄 ia.md
+│   │   ├── 📄 blockchain.md
+│   │   ├── 📄 satellites.md
+│   │   ├── 📄 sdn_nfv.md
+│   │   ├── 📄 outras_tecnologias.md
+│   │   └── 📄 ideias_inovadoras.md
+│   ├── 📁 mercado/             # Análise de mercado
+│   │   └── 📄 mercado_monetizacao.md
+│   ├── 📁 planejamento/        # Planejamento do projeto
+│   │   ├── 📄 plano.md
+│   │   └── 📄 checklist.md
+│   └── 📄 docs.txt             # Documento original
 ├── 📁 src/                     # Código fonte (em desenvolvimento)
 ├── 📁 tests/                   # Testes automatizados (pendente)
 ├── 📁 demos/                   # Aplicações demonstrativas (pendente)
 ├── 📁 tools/                   # Ferramentas auxiliares
-│   └── index.html             # InovaDocs - Gerador de Markdown
-├── checklist.md               # Status do projeto
-└── README.md                  # Este arquivo
+│   └── 📄 index.html           # InovaDocs - Gerador de Markdown
+├── 📁 config/                  # Configurações do projeto
+│   ├── 📄 project.json         # Configuração principal
+│   └── 📄 .env.example         # Exemplo de variáveis de ambiente
+├── 📁 assets/                  # Recursos estáticos
+│   └── 📄 logo.png             # Logo do projeto
+└── 📄 README.md                # Este arquivo
 ```
 
 <hr>
@@ -105,6 +119,7 @@ StreaminTCP-UDP/
         <li><b>Documentação completa</b></li>
         <li><b>Planejamento técnico</b></li>
         <li><b>Protótipo web</b> - InovaDocs</li>
+        <li><b>Estrutura organizada</b></li>
       </ul>
     </td>
     <td>
@@ -216,7 +231,7 @@ Ferramenta web para conversão automática de documentos técnicos em Markdown o
 
 <b>Como usar:</b>
 <ol>
-  <li>Abra <code>index.html</code> no navegador</li>
+  <li>Abra <code>tools/index.html</code> no navegador</li>
   <li>Cole seu texto técnico</li>
   <li>Clique em "Gerar Arquivos Markdown"</li>
   <li>Baixe o arquivo gerado</li>

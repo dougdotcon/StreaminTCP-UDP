@@ -1,9 +1,3 @@
-
-
-
-
-
-
 Essa abordagem utiliza um protocolo customizado sobre UDP que, ao invés de depender de confirmações (ACKs) e retransmissões típicas do TCP, emprega uma técnica de “diluição” dos dados. Em resumo, a partir de N bytes de informação, gera-se k × N bytes de dados redundantes, de modo que qualquer conjunto suficiente desses bytes (mesmo que não sejam os exatos) permite a reconstrução completa da mensagem original. Essa técnica se assemelha a códigos de correção de erros (FEC) e apresenta diversas aplicações e funcionalidades:
 
 **Aplicações:**
