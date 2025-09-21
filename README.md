@@ -222,21 +222,7 @@ StreaminTCP-UDP/
 
 <hr>
 
-## 🎮 **Demos e Ferramentas**
 
-<details>
-<summary><b>🌐 InovaDocs</b></summary>
-<br>
-Ferramenta web para conversão automática de documentos técnicos em Markdown organizado.
-
-<b>Como usar:</b>
-<ol>
-  <li>Abra <code>tools/index.html</code> no navegador</li>
-  <li>Cole seu texto técnico</li>
-  <li>Clique em "Gerar Arquivos Markdown"</li>
-  <li>Baixe o arquivo gerado</li>
-</ol>
-</details>
 
 <hr>
 
